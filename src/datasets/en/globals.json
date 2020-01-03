@@ -1,0 +1,18 @@
+{
+    "roles": {
+        "1": "Tank",
+        "2": "AoE",
+        "3": "Support",
+        "4": "Heal",
+        "5": "Control",
+        "6": "DPS",
+        "7": "Burst Damage" 
+    },
+    "tags": {
+        "1": "Passive",
+        "2": "Basic Attack",
+        "3": "Single-Target",
+        "4": "Bounce",
+        "5": "Ice Seal"
+    }
+}

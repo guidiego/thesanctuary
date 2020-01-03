@@ -1,0 +1,77 @@
+{
+    "name": "Hyoga",
+    "constelation": "Cygnus",
+    "avatar": "",
+    "rank": "A",
+    "roles": [2, 5],
+    "skills": [
+        {
+            "name": "Frigid Punch",
+            "avatar": "",
+            "cost": 0,
+            "maxLevel": 5,
+            "tags": [2, 5],
+            "description": "Deals {{dmg}} {{dmgType}} to 1 enemy and inflicts 2 stracks of Ice Seal",
+            "dmgType": 1,
+            "levelDesc": "{{dmg}} damage multiplier",
+            "base": {
+                "dmg": 80
+            },
+            "multipliers": {
+                "dmg": 5
+            }
+        },
+        {
+            "name": "Restrictive Ice Crystal",
+            "avatar": "",
+            "cost": 1,
+            "maxLevel": 5,
+            "tags": [4, 5],
+            "description": "Releases an ice crystal ring that deals {{dmg}} {{dmgType}} to 1 enemy and randomly bounces 3 times (damage decreases 40% after each bounce) with a {{seal}} (+Status Hit) to inflict 1 stack of Ice Seal on the enemy",
+            "levelDesc": "{{dmg}} damage multiplier, {{seal}} seal inflict chance",
+            "dmgType": 1,
+            "base": {
+                "dmg": 120,
+                "seal": 60
+            },
+            "multipliers": {
+                "dmg": 10,
+                "seal": 5
+            }
+        },
+        {
+            "name": "Diamond Dust",
+            "avatar": "",
+            "cost": 1,
+            "maxLevel": 5,
+            "tags": [3, 5],
+            "description": "Deals {{dmg}} {{dmgType}} to 1 enemy, which then detonates and freezes enemies with 3 stacks of Ice Seal",
+            "levelDesc": "{{dmg}} damage multiplier",
+            "dmgType": 1,
+            "base": {
+                "dmg": 140
+            },
+            "multipliers": {
+                "dmg": 10
+            }
+        },
+        {
+            "name": "Cold Breath",
+            "avatar": "",
+            "maxLevel": 5,
+            "tags": [1, 5],
+            "description": "Attacks have a {{seal}} chance to apply 1 stack of Ice Seal. When Hyoga attacks an enemy with Ice Seal, he has a chance (+Inflict Status Chance) to freeze it for 1 round. Every stack increases the chance to freeze by 8%. Multiple attacks can only trigger this effect once. Stacks up to 5.",
+            "levelDesc": "{{seal}} seal triggering chance",
+            "base": {
+                "seal": 60
+            },
+            "multipliers": {
+                "seal": 5
+            }
+        }
+    ],
+    "awakening": [
+        
+    ]
+
+}
